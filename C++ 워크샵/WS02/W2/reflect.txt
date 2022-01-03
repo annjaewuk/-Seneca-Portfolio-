@@ -1,0 +1,23 @@
+Student Name :     Jaewook Ahn
+Student Number :  102354198
+Email :                    jahn33@myseneca.ca
+Section: 	             NCC
+Workshop:             2
+
+
+ After completing this workshop, I have a more comprehensive understanding of the main points I learned this week: copying semantics and shifting semantics.
+
+ First, Move semantics is like truncating a file on a computer, copy semantics is like copying a file. 
+I can copy objects by defining a copy constructor and copy assignment operator. 
+To implement move semantics, I need to define a move constructor and a move assignment operator.
+
+ Second, Copy semantics do shallow copying, which can cause problems with classes that allocate dynamic memory. 
+Classes with dynamic memory should override these copy functions to perform a full copy. 
+Movement semantics transfer ownership of resources from one object to another. 
+But it's just a transfer, not a copy of memory. 
+Since there is no memory copy, it is generally more efficient than copy operations. It's cheaper than copying.
+
+
+ Lastly, move unconditionally converts the argument to an rvalue reference type and then is used for move semantics. 
+For rvalue references, the program can call the move constructor to create the object, reducing significant overhead when calling the original copy constructor.
+

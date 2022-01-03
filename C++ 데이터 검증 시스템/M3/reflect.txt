@@ -1,0 +1,14 @@
+Student Name :     Jaewook Ahn
+Student Number :  102354198
+Email :                    jahn33@myseneca.ca
+Section: 	             NCC
+
+
+ By following these milestones, I had the opportunity to reinforce the core knowledge I learned during this semester. 
+I learned about copy and move semantics, containers, algorithms, smart pointers, and more. 
+They are all very useful. In the end, vectors were used. Vectors, like dynamic arrays, have the ability to automatically resize when elements are inserted or deleted. 
+And their storage is handled automatically by the container. Vector elements are placed in contiguous storage so they can be accessed and traversed using iterators (e.g.begin(), end()). 
+Many functions are associated with vectors like size() for capacity, push_back() and pop_front() for modifiers. 
+Deques are similar to vectors, but are more efficient at inserting and deleting as they allow quick inserts and deletions at both the beginning and end. 
+Deque's storage expansion is cheaper than vector because it copies existing elements to a new memory location. 
+Finally, little things matter in the coding world. I have to consider the logical frame as well as the details that may affect the overall result.

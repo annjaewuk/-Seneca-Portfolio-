@@ -1,0 +1,12 @@
+﻿  Car.cpp
+  Menu.cpp
+  Motorcycle.cpp
+  Parking.cpp
+  ParkingAppTester.cpp
+  ReadWritable.cpp
+  Utils.cpp
+  Vehicle.cpp
+E:\SENECA\Seneca CPD Summer 2020\OOP\OOP-Project-\MS6\Vehicle.cpp(78,37): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\SENECA\Seneca CPD Summer 2020\OOP\OOP-Project-\MS6\Vehicle.cpp(102,42): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  MS6.vcxproj -> E:\SENECA\Seneca CPD Summer 2020\OOP\OOP-Project-\MS6\x64\Debug\MS6.exe

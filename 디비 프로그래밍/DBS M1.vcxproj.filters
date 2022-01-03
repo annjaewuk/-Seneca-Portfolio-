@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="occi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="occiCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="occiControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="occiData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="occiObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="occiAQ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ldap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nzerror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nzt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oci.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oci1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oci8dp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ociap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ociapr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ocidef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ocidem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ocidfn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ociextp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ocikpr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ocixml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ocixmldb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ocixstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="odci.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oratypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ori.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="orid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="orl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

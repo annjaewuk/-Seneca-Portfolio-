@@ -1,0 +1,19 @@
+Student Name :     Jaewook Ahn
+Student Number :  102354198
+Email :                    jahn33@myseneca.ca
+Section: 	             NCC
+Workshop:             4
+
+
+ First, composition relationships are stronger than aggregate relationships. 
+In a composition, child classes cannot exist independently of the parent class. 
+In an aggregate, objects can exist independently. 
+The composition is responsible for the creation or destruction of part objects. 
+However, the aggregation is not responsible for creating or destroying those parts.
+
+ Second, in the composition, the composer transfers ownership by reassigning the pointer to the object. 
+Since the composer completely owns the part object, it creates a copy of the object in memory. 
+In an aggregate, the aggregator reallocates a pointer to the move function's memory. 
+Aggregators can exist independently, so they only copy a pointer to the part object in the copy function.
+
+

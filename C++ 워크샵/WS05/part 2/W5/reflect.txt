@@ -1,0 +1,20 @@
+Student Name :     Jaewook Ahn
+Student Number :  102354198
+Email :                    jahn33@myseneca.ca
+Section: 	             NCC
+Workshop:             5
+
+ First, lambda expressions are a kind of functor. Lambda expressions are defined in a shorter syntax, but their syntax is limited. 
+Lambda only have one operator, so I can't provide overloads to separate argument types. 
+Generic functors can be recursive, but lambda cannot. Lambda expressions are not as useful as functors in more complex situations. 
+Use concise lambda expressions when you don't want to reuse functors or want to create simple function objects for simple situations. 
+However, I prefer to use functors when the function is repeated in several places and things are more complex.
+
+ Second, in SpellChecker's constructor, it uses a method of throwing exceptions to handle various situations. 
+To get the same result, I can use a function to return different values ​​and have different functions handle different situations depending on the value received.
+
+ Third, I can create a base class that contains methods, including the logic for both classes.
+
+ Finally, I need a default constructor. It can't be removed. If I have a custom constructor, the compiler won't create a default constructor. 
+So if I want to initialize all member variables you have to keep the default constructor.
+

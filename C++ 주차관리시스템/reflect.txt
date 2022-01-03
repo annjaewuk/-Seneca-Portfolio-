@@ -1,0 +1,15 @@
+Student Name :     Jaewook Ahn
+Student Number :  102354198
+Email :                    jahn33@myseneca.ca
+Section: 	             NAA
+Milestone:             6
+
+
+In the final project, I built a parking application that can load vehicle information from a file, update parking information, and save the updated information to a file. 
+Encapsulation, Inheritance, and Polymorphism concepts were utilized in this project.
+
+First, I learned how to read file data via "ifstream" and store the data in the Parking object via overloaded operators.
+
+Second, I virtually coded the base class's destructor, even if there is no currently derived class from that base class.
+
+Finally, I was able to remove redundant logic from the hierarchical system by improving some sort of containment polymorphism through input and output operator overloading.

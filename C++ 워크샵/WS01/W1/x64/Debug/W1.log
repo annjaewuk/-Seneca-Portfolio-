@@ -1,0 +1,8 @@
+﻿  Event.cpp
+  w1_p1.cpp
+  Generating Code...
+w1_p1.obj : error LNK2005: "unsigned int sdds::g_sysClock" (?g_sysClock@sdds@@3IA) already defined in Event.obj
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+    Hint on symbols that are defined and could potentially match:
+      "int __cdecl sdds::main(int,char * * const)" (?main@sdds@@YAHHQEAPEAD@Z)
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS01\W1\x64\Debug\W1.exe : fatal error LNK1120: 1 unresolved externals

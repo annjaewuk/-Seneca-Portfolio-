@@ -1,0 +1,18 @@
+Student Name :     Jaewook Ahn
+Student Number :  102354198
+Email :                    jahn33@myseneca.ca
+Section: 	             NCC
+Workshop:             9
+
+
+ First, why was necessary to use binary files in this worksho and how did you use them is because binary files are smaller than text files. 
+There is no need to convert from one to the other, so input and output are much faster if I use binary files. 
+In a word, binary files can save time and space.
+
+ Second, why would be important to bind a function to its arguments, and how was it useful in this workshop is because it is more concise than actually writing a functor class to do it. 
+Using bind can take less typing, it's more clearer. When I use it, I simply know it is focused solely on function binding. 
+
+ Lastly, the advantages of using multiple threads, and how did you accomplished multi-threading in this workshop? 
+I can execute multiple parts at the sanme time by using multiple threads and also each thread can run on a different processor in parallel using multithreading. 
+This can increase concurrency of the system. Threads share the process resources, so it's cheaper and less time-consuming to use threads than to create processes as they require more resources.
+

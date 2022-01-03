@@ -1,0 +1,44 @@
+﻿  PairSummable.h
+  SetSummable.h
+  w3_p2.cpp
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(27,10): error C2976: 'sdds::SetSummable': too few template arguments
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\SetSummable.h(9): message : see declaration of 'sdds::SetSummable'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(27,80): error C2133: 'products': unknown size
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(27,72): error C2512: 'sdds::SetSummable': no appropriate default constructor available
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\SetSummable.h(9,1): message : see declaration of 'sdds::SetSummable'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(53,15): warning C4552: '<<': result of expression not used
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(59,63): error C2662: 'V sdds::SetSummable<T,N,K,V>::accumulate(const K &) const': cannot convert 'this' pointer from 'sdds::SetSummable' to 'const sdds::SetSummable<T,N,K,V> &'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(59,63): message : Reason: cannot convert from 'sdds::SetSummable' to 'const sdds::SetSummable<T,N,K,V>'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(59,36): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\SetSummable.h(14,5): message : see declaration of 'sdds::SetSummable<T,N,K,V>::accumulate'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(60,67): error C2662: 'V sdds::SetSummable<T,N,K,V>::accumulate(const K &) const': cannot convert 'this' pointer from 'sdds::SetSummable' to 'const sdds::SetSummable<T,N,K,V> &'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(60,67): message : Reason: cannot convert from 'sdds::SetSummable' to 'const sdds::SetSummable<T,N,K,V>'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(60,36): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\SetSummable.h(14,5): message : see declaration of 'sdds::SetSummable<T,N,K,V>::accumulate'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(61,68): error C2662: 'V sdds::SetSummable<T,N,K,V>::accumulate(const K &) const': cannot convert 'this' pointer from 'sdds::SetSummable' to 'const sdds::SetSummable<T,N,K,V> &'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(61,68): message : Reason: cannot convert from 'sdds::SetSummable' to 'const sdds::SetSummable<T,N,K,V>'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(61,36): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\SetSummable.h(14,5): message : see declaration of 'sdds::SetSummable<T,N,K,V>::accumulate'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(62,69): error C2662: 'V sdds::SetSummable<T,N,K,V>::accumulate(const K &) const': cannot convert 'this' pointer from 'sdds::SetSummable' to 'const sdds::SetSummable<T,N,K,V> &'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(62,69): message : Reason: cannot convert from 'sdds::SetSummable' to 'const sdds::SetSummable<T,N,K,V>'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(62,36): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\SetSummable.h(14,5): message : see declaration of 'sdds::SetSummable<T,N,K,V>::accumulate'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(70,10): error C2976: 'sdds::SetSummable': too few template arguments
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\SetSummable.h(9): message : see declaration of 'sdds::SetSummable'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(70,75): error C2133: 'ticketSales': unknown size
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(70,64): error C2512: 'sdds::SetSummable': no appropriate default constructor available
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\SetSummable.h(9,1): message : see declaration of 'sdds::SetSummable'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(97,15): warning C4552: '<<': result of expression not used
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(107,90): error C2662: 'V sdds::SetSummable<T,N,K,V>::accumulate(const K &) const': cannot convert 'this' pointer from 'sdds::SetSummable' to 'const sdds::SetSummable<T,N,K,V> &'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(107,90): message : Reason: cannot convert from 'sdds::SetSummable' to 'const sdds::SetSummable<T,N,K,V>'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(107,58): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\SetSummable.h(14,5): message : see declaration of 'sdds::SetSummable<T,N,K,V>::accumulate'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(108,88): error C2662: 'V sdds::SetSummable<T,N,K,V>::accumulate(const K &) const': cannot convert 'this' pointer from 'sdds::SetSummable' to 'const sdds::SetSummable<T,N,K,V> &'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(108,88): message : Reason: cannot convert from 'sdds::SetSummable' to 'const sdds::SetSummable<T,N,K,V>'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(108,58): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\SetSummable.h(14,5): message : see declaration of 'sdds::SetSummable<T,N,K,V>::accumulate'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(109,89): error C2662: 'V sdds::SetSummable<T,N,K,V>::accumulate(const K &) const': cannot convert 'this' pointer from 'sdds::SetSummable' to 'const sdds::SetSummable<T,N,K,V> &'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(109,89): message : Reason: cannot convert from 'sdds::SetSummable' to 'const sdds::SetSummable<T,N,K,V>'
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\w3_p2.cpp(109,58): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\SENECA\Seneca CPD Fall 2020\OOP345\WS03\W3\SetSummable.h(14,5): message : see declaration of 'sdds::SetSummable<T,N,K,V>::accumulate'
+  Generating Code...

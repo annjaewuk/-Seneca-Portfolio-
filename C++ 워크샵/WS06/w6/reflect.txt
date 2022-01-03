@@ -1,0 +1,17 @@
+
+Student Name :     Jaewook Ahn
+Student Number :  102354198
+Email :                    jahn33@myseneca.ca
+Section: 	             NCC
+Workshop:             6
+
+ First, when I declared vector as std::vector<Vehicle*> m_vehicles; , I stored pointers in the vector. 
+Then the vector allocated memory to store the pointers. The vector only frees the memory it allocates within itself, not the memory that they point to. 
+I need to delete that memory, otherwise I would have a memory leak.
+
+ Second, when there is an unknown type of vehicle, the type is not recognized, it would display unrecognized record type: [type]. 
+If the record contains invalid data, it would display the error message.
+
+ Lastly, if I declare like this std::list<sdds::Vehicle> and std::vector<sdds::Vehicle>, I store objects themselves. 
+std::vector<sdds::Vehicle*> allow me to use polymorphism and store related objects in the same vector, but I cannot do it with objects with non-pointers. 
+In addition, std::list<sdds::Vehicle*> and std::vector<sdds::Vehicle*> use pointers to reduce copy time.

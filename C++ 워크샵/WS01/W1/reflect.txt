@@ -1,0 +1,21 @@
+Student Name :     Jaewook Ahn
+Student Number :  102354198
+Email :                    jahn33@myseneca.ca
+Section: 	             NCC
+Workshop:             1
+
+
+ In this workshop I learned how to take program arguments from the command line, 
+how to protect class definitions from iteration, 
+and how to access variables defined in different translation units.
+
+ First, I added the file provided to the resource file, access the property, and apply it in Command Arguments of the Debugging tab.
+It was not a difficult task, but it was difficult to understand how it works.
+
+ Second, Repeatability caused link errors. 
+This could be resolved by declaring a variable in the header file using the extern function and making a general declaration in the cpp file of the module.
+
+ In addition, By putting two colons in front of the variable like ::g_sysClock, the compiler could access the variables defined in different translation units.
+
+ Lastly, since the second semester, dynamic memory allocation and memory-related issues have been a big headache. 
+In addition to reinforcing this part, I felt that additional learning was needed for concepts such as local variables.

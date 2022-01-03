@@ -1,0 +1,16 @@
+Student Name :     Jaewook Ahn
+Student Number :  102354198
+Email :                    jahn33@myseneca.ca
+Section: 	             NCC
+Workshop:             8
+
+
+ First, the advantage that smart pointer syntax provides is related to memory. In part 1, we only use raw pointers to complete the code. 
+The output report obviously shows memory leak. In part 2 we use smart pointers and don't need to worry about deleting the object or leaking memory. 
+std::unique_ptr is a construct that should be used when a piece of memory can only have one owner at at time. 
+It is lightweight container, requiring no memory penalty to use it. Smart pointers can manage themselves. 
+
+ Second, the difference between raw and smart pointer syntax in your solution is related to allocating. 
+A raw pointer itself doesn't know how the memory being pointed is allocated and doesn't know when or how to deallocate it. 
+When using raw pointers, we need to have a delete for every exit point, and an exception would still lead to memory leak. 
+Smart pointers have a mechanism to deallocate the memory that the pointer points to. 

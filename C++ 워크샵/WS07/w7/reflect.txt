@@ -1,0 +1,23 @@
+Student Name :     Jaewook Ahn
+Student Number :  102354198
+Email :                    jahn33@myseneca.ca
+Section: 	             NCC
+Workshop:             7
+
+ std::for_each()(used in SongCollection::display()): This STL algorithm  was used sum the total lengths of the songs. 
+std::sort() (used in SongCollection::sort) : This STL algorithm was used to sort the contents of the container by a specific field. I required a sorting algorithm, therefore, this function was used.
+std::any_of() (used in SongCollection::inCollection()): This STL algorithm was used to check if any elements satisfied the predicate. 
+std::copy_if() (used in SongCollection::getSongsForArtist()): This STL algorithm was used to copy the song objects from the container to a local list container by inserting only if that element met a specific condition.
+
+
+ The advantage of using the STL algorithm is iterative structures will have faster development times (no need to plan or debug logical errors) because I don't have to write the algorithm myself.
+As the name implies, the STL algorithm treats the elements within a data structure in a generic form, allowing me to reuse my code a lot. 
+I can reuse code using iterators. That said, if at any point I decide to change the container I used, I won't have to change most of the logic that uses the container.
+
+A possible redesign that allows compiler validation is to define an enum type (plain or range enum) where each symbolic constant (or enum constant) represents the sorting options allowed to the client. 
+For a workshop I can have 3 constants, the first is the length, the second is the album, and the third is the title. 
+The function's parameter list is updated to only accept these three symbolic constants (parameters must be of the same enum type defined previously) instead of accepting std::string. 
+If the client code misspells a symbolic constant or tries to pass an entity of a different type, the compiler throws an error.
+
+ 
+
