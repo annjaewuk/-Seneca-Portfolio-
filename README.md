@@ -3,5 +3,5 @@
 + 미니 프로젝트 결과물들
 <br/>
 
-# -파이썬 AI 포트폴리오 링크-
+# -파이썬 AI 포트폴리오 링크("Python AI Portfolio Link")-
 https://github.com/annjaewuk/Python-Bigdata-MachineLearning-DeepLearning-AI
